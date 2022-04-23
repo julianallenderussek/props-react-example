@@ -2,7 +2,7 @@ import React from 'react'
 import './Blog.css'
 
 // Here insted of calling props which is props = { bloq: {...title, ...author, etc}} we can use object distructuring
-// to take out the bloq object.
+// to take out the bloq object..
 const Blog = ({blog}) => {
     console.log("This is blog in Blog", blog)
     return (
