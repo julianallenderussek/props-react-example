@@ -1,0 +1,29 @@
+.blog-wrapper {
+    border: lightgray solid;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-title {
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.blog-body {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.blog-author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.blog-image {
+    align-self: center;
+    height: 400px;
+    width: 500px;
+}
